@@ -1,0 +1,255 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+.cardc {
+    background-color: #111; /* Couleur de fond sombre pour la carte */
+    color: #fff; /* Texte blanc */
+}
+
+.card-headerc {
+    background-color: #000; /* Noir pour l'en-tête de la carte */
+}
+
+.card-bodyc, .card-footerc {
+    background-color: #111; /* Couleur de fond sombre pour le corps et le pied de la carte */
+}
+
+.btn-outline-primaryc {
+    border-color: #b00; /* Rouge Netflix pour la bordure du bouton */
+    color: #b00;
+}
+
+    .btn-outline-primaryc:hover {
+        background-color: #b00; /* Rouge Netflix au survol du bouton */
+        color: #fff;
+    }
+
+.btn-successc {
+    background-color: #b00; /* Rouge Netflix pour le bouton Ajouter au Panier */
+    border-color: #b00;
+}
+
+    .btn-successc:hover {
+        background-color: #800; /* Rouge plus foncé au survol du bouton Ajouter au Panier */
+        border-color: #800;
+    }
+
+.navbarnn {
+    background-color: #000; /* Noir */
+    color: #fff; /* Blanc */
+}
+
+.navbar-lightnn .navbar-toggler-iconnn {
+    background-color: #fff; /* Blanc pour l'icône du bouton de navigation */
+}
+
+.navbar-navnn .nav-linknn {
+    color: #fff; /* Blanc pour les liens */
+}
+
+    .navbar-navnn .nav-linknn:hover {
+        color: #b00; /* Rouge Netflix au survol des liens */
+    }
+
+.navbar-togglernn {
+    border-color: #fff; /* Blanc pour la bordure du bouton de navigation */
+}
+
+.form-inlinenn .form-controlnn {
+    background-color: #111; /* Couleur de fond sombre pour la zone de recherche */
+    color: #fff; /* Blanc pour le texte de la zone de recherche */
+    border-color: #b00; /* Rouge Netflix pour la bordure de la zone de recherche */
+}
+
+.btn-outline-successnn {
+    border-color: #b00; /* Rouge Netflix pour la bordure du bouton de recherche */
+    color: #b00;
+}
+
+    .btn-outline-successnn:hover {
+        background-color: #b00; /* Rouge Netflix au survol du bouton de recherche */
+        color: #fff;
+    }
+
+
+.card-headern {
+    background-color: #000; /* Noir */
+    color: #fff; /* Blanc */
+}
+
+.card-bodyn {
+    background-color: #111; /* Couleur de fond sombre */
+    color: #fff;
+}
+
+.card-footern {
+    background-color: #b00; /* Rouge Netflix */
+    color: #fff;
+}
+
+.btn-outline-primaryn {
+    border-color: #b00; /* Rouge Netflix */
+    color: #b00;
+}
+
+    .btn-outline-primaryn:hover {
+        background-color: #b00; /* Rouge Netflix */
+        color: #fff;
+    }
+
+/*</style >*/
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+    border-top: 1px solid #c21b31;
+}
+.border-bottom {
+    border-bottom: 1px solid #c21b31;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.footer-clean {
+    padding: 50px 0;
+    background-color: #fff;
+    color: #4b4c4d;
+}
+
+    .footer-clean h3 {
+        margin-top: 0;
+        margin-bottom: 12px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .footer-clean ul {
+        padding: 0;
+        list-style: none;
+        line-height: 1.6;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+        .footer-clean ul a {
+            color: inherit;
+            text-decoration: none;
+            opacity: 0.8;
+        }
+
+            .footer-clean ul a:hover {
+                opacity: 1;
+            }
+
+    .footer-clean .item.social {
+        text-align: right;
+    }
+
+@media (max-width:767px) {
+    .footer-clean .item {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-clean .item.social {
+        text-align: center;
+    }
+}
+
+.footer-clean .item.social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-top: 22px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+    .footer-clean .item.social > a:hover {
+        opacity: 0.9;
+    }
+
+@media (max-width:991px) {
+    .footer-clean .item.social > a {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:767px) {
+    .footer-clean .item.social > a {
+        margin-top: 10px;
+    }
+}
+
+.footer-clean .copyright {
+    margin-top: 14px;
+    margin-bottom: 0;
+    font-size: 13px;
+    opacity: 0.6;
+}
